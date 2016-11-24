@@ -63,7 +63,7 @@
             android:text="DELETE"
             android:textColor="?attr/colorAccent" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/buttonFavorite"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="48dp"
@@ -74,7 +74,7 @@
             android:tint="#757575"
             app:srcCompat="@drawable/ic_favorite_black_24dp" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/buttonShare"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="48dp"
